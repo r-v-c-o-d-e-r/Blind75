@@ -7,7 +7,7 @@
     ListNode(int x, ListNode *next) : val(x), next(next) {}
  };
 
- class Solution {
+class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
         ListNode *prev = nullptr, *curr = head;
